@@ -104,7 +104,7 @@
     \thinfont \subtitle%
   };
 \end{tikzpicture}
-%\vspace{2.5cm}
+\vspace{2cm}
 \vspace{-2\parskip}
   %\def\rectshift{0cm}
   %\vspace{-\rectshift}

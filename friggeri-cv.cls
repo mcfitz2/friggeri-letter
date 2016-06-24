@@ -84,7 +84,7 @@
       \thinfont #3%
     };
   \end{tikzpicture}
-  \vspace{2.5cm}
+  \vspace{2.0cm}
   \vspace{-2\parskip}
 }
 
@@ -158,7 +158,7 @@
     \hfill%
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
     {\positionfont{#4}}
-    \ifthenelse{\equal{#4}{}}{}{\\}
+    \ifthenelse{\equal{#4}{}}{}{}
     {#5}\vspace{\parsep}%
   }\\}
 
@@ -183,7 +183,7 @@
 
 \newcommand\aside[2]{
     \AddEverypageHook{
-        \begin{textblock}{3.6}(1.5, \asideHeight) % {width}(xpos,ypos)
+        \begin{textblock}{3}(1.0, \asideHeight) % {width}(xpos,ypos)
             \begin{flushright}
             \linespread{1}\selectfont
             {\Large\headingfont\color{headercolor} {#1}} \\
@@ -315,7 +315,9 @@
     {}%
 }
 
-\defbibheading{bibheading}[\bibname]{%   \subsubsection*{#1}   \markboth{#1}{#1}
+\defbibheading{bibheading}[\bibname]{%
+   \subsubsection*{#1}
+   \markboth{#1}{#1}
 }
 
 \newcommand{\printbibsection}[2]{
