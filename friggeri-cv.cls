@@ -184,11 +184,11 @@
 \newcommand\aside[2]{
     \AddEverypageHook{
         \begin{textblock}{3}(1.0, \asideHeight) % {width}(xpos,ypos)
-            \begin{flushright}
+            \begin{flushleft}
             \linespread{1}\selectfont
             {\Large\headingfont\color{headercolor} {#1}} \\
             #2
-            \end{flushright}
+            \end{flushleft}
         \end{textblock}
         %
         %all pages aside from the first should have the side bit further up
