@@ -1,3 +1,9 @@
+# resume
+
+This is my personal fork of Matthew Davis' fork of the friggeri-cv Latex template. I've made minor changes to the class files to fix layout issues I had, and I have of course changed the content. The rest of the credit goes to Matthew and Adrien. 
+
+
+
 # friggeri-letter
 
 This is a LaTeX template for a cover letter to go with a resume created with the [friggeri-cv resume template](http://www.latextemplates.com/template/friggeri-resume-cv).
