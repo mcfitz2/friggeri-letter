@@ -133,6 +133,7 @@
     \fromaddress \\*[2\parskip]%
     \@date \end{tabular}\par}%
   \fi
+  \vspace{2cm}
   {\raggedright \toname \\ \toaddress \par}%
   \vspace{2\parskip}%\\
   #1\par\nobreak}
